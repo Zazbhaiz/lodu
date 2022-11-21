@@ -46,9 +46,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
             ),
-            InlineKeyboardButton(
-                text="•sᴇᴛᴛɪɴɢs•", callback_data="settings_helper"
-            ),                                   
+                                      
         ],
         [
             InlineKeyboardButton(
@@ -237,7 +235,7 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Back", callback_data="basic_cmd"
             ),
             InlineKeyboardButton(
                 text="🔄 Close", callback_data="close_btn"
