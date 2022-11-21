@@ -6,7 +6,7 @@ BOT_USERNAME = app.username
 START_TEXT = f"""
 ✨ **Hello MENTION !**
 **You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ •ᴄᴏᴍᴍᴀɴᴅs•f button**
+💡 **Find out all the Bot's commands and how they work by clicking on the ➤ •ᴄᴏᴍᴍᴀɴᴅs• button**
 """
 
 COMMANDS_TEXT = f"""
@@ -267,12 +267,12 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Music", callback_data="basic_cmd"
+                text="Management", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Management", callback_data="advanced_cmd"
+                text="Music", callback_data="advanced_cmd"
             ),
         ],
         [
