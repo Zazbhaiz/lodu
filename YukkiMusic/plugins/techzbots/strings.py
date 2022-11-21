@@ -46,7 +46,9 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
             ),
-                                      
+            InlineKeyboardButton(
+                text="•sᴇᴛᴛɪɴɢs•", callback_data="settings_helper"
+            ),                                   
         ],
         [
             InlineKeyboardButton(
@@ -222,6 +224,22 @@ BASIC_TEXT = """
   ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.
 """
 
+ANIMAL = """
+/catfacts - To Get Facts About Cat.
+/dogfacts - To Get Facts About Dog.
+/animalfacts - To Get Facts About Animal.
+"""
+
+ANIME =  """
+
+/anime - Get Anime Info.
+/manga - Get Manga Info.
+/aquote - Get Random Anime Quote.
+/aquote anime- Get Anime Quote From An Anime.
+/cquote character - Get Quote From A Character.
+
+"""
+
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
@@ -229,9 +247,21 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Admin Miscs", callback_data="admin_misc"
-            ),            
+            ),
+
+            InlineKeyboardButton(
+                text="Animals", callback_data="animal"
+            ),           
+
+            InlineKeyboardButton(
+                text="Anime", callback_data="anime"
+            ),           
+
+
+                   
         ],   
 
+      
         [
             InlineKeyboardButton(
                 text="↪️ Back", callback_data="command_menu"
@@ -239,9 +269,7 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="🔄 Close", callback_data="close_btn"
             ),            
-        ],      
-       
-                              
+        ],                          
     ]
 )
 
