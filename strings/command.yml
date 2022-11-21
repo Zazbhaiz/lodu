@@ -13,7 +13,7 @@ PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "
 PLAYMODE_COMMAND : ["playmode", "mode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
-
+MUTE_COMMAND : ["mute"]
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
 DELETEPLAYLIST_COMMAND : ["deleteplaylist", "delplaylist"]
