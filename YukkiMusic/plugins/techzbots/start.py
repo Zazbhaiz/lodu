@@ -10,7 +10,7 @@ async def start_menu_private(message):
     mention = "[" + message.from_user.first_name + "](tg://user?id=" + str(message.from_user.id) + ")"
     text = START_TEXT.replace("MENTION",mention)
     if "help" in message.text:
-        await message.reply_photo(photo=THUMBNAIL,caption="**Choose Which One You Want Help Of.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
+        await message.reply_photo(photo=THUMBNAIL,caption="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")
     else:
         await message.reply_photo(photo=THUMBNAIL,caption=text,reply_markup=START_BUTTON_PRIVATE,parse_mode="markdown")
 
@@ -83,16 +83,16 @@ async def basic_cmd(_, query):
 @app.on_callback_query(filters.regex("command_menu"))
 async def command_menu(_, query):
     await query.answer()   
-    await query.message.edit(text="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")  
+    await query.message.edit(text="**Choose One To Get Help For.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")  
 
 
 @app.on_callback_query(filters.regex("admin"))
 async def admin_menu(_, query):
     await query.answer()    
-    await query.message.edit(text=ADMIN,reply_markup=BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=ADMIN,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
 
 
 @app.on_callback_query(filters.regex("admin_misc"))
 async def admin_menu(_, query):
     await query.answer()    
-    await query.message.edit(text=ADMIN_MISC,reply_markup=BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=ADMIN_TEXT,reply_markup=BBASIC_BACK_BUTTON,parse_mode="markdown")
