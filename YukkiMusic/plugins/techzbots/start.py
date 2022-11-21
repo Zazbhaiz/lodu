@@ -52,6 +52,29 @@ async def play_menu(_, query):
 async def bot_menu(_, query):
     await query.answer()    
     await query.message.edit(text=BOT_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
+    
+    
+    
+@app.on_callback_query(filters.regex("admin"))
+async def admin(_, query):
+    await query.answer()    
+    await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("admin_misc"))
+async def admin_misc(_, query):
+    await query.answer()    
+    await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
+
+    @app.on_callback_query(filters.regex("animal"))
+async def animal(_, query):
+    await query.answer()    
+    await query.message.edit(text=ANIMAL,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("anime"))
+async def anime(_, query):
+    await query.answer()    
+    await query.message.edit(text=ANIME,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
+
 
 @app.on_callback_query(filters.regex("close_btn"))
 async def closer_menu(_, query):
@@ -86,23 +109,3 @@ async def command_menu(_, query):
     await query.message.edit(text="**Choose One To Get Help For.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")  
 
 
-@app.on_callback_query(filters.regex("admin"))
-async def admin(_, query):
-    await query.answer()    
-    await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
-
-
-@app.on_callback_query(filters.regex("admin_misc"))
-async def admin_misc(_, query):
-    await query.answer()    
-    await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
-
-@app.on_callback_query(filters.regex("animal"))
-async def animal(_, query):
-    await query.answer()    
-    await query.message.edit(text=ANIMAL,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
-
-@app.on_callback_query(filters.regex("anime"))
-async def anime(_, query):
-    await query.answer()    
-    await query.message.edit(text=ANIME,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
