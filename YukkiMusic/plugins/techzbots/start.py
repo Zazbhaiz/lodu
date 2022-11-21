@@ -65,7 +65,7 @@ async def admin_misc(_, query):
     await query.answer()    
     await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
 
-    @app.on_callback_query(filters.regex("animal"))
+@app.on_callback_query(filters.regex("animal"))
 async def animal(_, query):
     await query.answer()    
     await query.message.edit(text=ANIMAL,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
