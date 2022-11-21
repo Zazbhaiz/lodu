@@ -46,7 +46,9 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
             ),
-                                         
+            InlineKeyboardButton(
+                text="•sᴇᴛᴛɪɴɢs•", callback_data="settings_helper"
+            ),                                   
         ],
         [
             InlineKeyboardButton(
@@ -215,14 +217,11 @@ force stands for force play.
 
 
 BASIC_TEXT = """
-💠 **Basic Commands:**
-/start - Start the bot
-/help - Get help message
-/play - Play songs or videos in vc
-/vplay - Play video in VC
-/settings - Check Settings of bot in your group
-**Some Useful Commands :** 
-/pause /resume /skip /end /loop /shuffle
+➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
+➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.
+➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
+  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.
 """
 
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
@@ -267,12 +266,12 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Management", callback_data="basic_cmd"
+                text="Music", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Music", callback_data="advanced_cmd"
+                text="Management", callback_data="advanced_cmd"
             ),
         ],
         [
