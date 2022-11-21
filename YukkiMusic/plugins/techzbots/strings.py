@@ -46,9 +46,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
             ),
-            InlineKeyboardButton(
-                text="•sᴇᴛᴛɪɴɢs•", callback_data="settings_helper"
-            ),                                   
+                                         
         ],
         [
             InlineKeyboardButton(
