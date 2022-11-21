@@ -232,7 +232,14 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
             ),            
         ],   
 
-      
+        [
+            InlineKeyboardButton(
+                text="↪️ Back", callback_data="command_menu"
+            ),
+            InlineKeyboardButton(
+                text="🔄 Close", callback_data="close_btn"
+            ),            
+        ],      
        
                               
     ]
