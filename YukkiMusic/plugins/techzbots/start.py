@@ -87,12 +87,12 @@ async def command_menu(_, query):
 
 
 @app.on_callback_query(filters.regex("admin"))
-async def admin_menu(_, query):
+async def admin(_, query):
     await query.answer()    
     await query.message.edit(text=ADMIN,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
 
 
 @app.on_callback_query(filters.regex("admin_misc"))
-async def admin_meu(_, query):
+async def admin_misc(_, query):
     await query.answer()    
     await query.message.edit(text=ADMIN_TEXT,reply_markup=BBASIC_BACK_BUTTON,parse_mode="markdown")
