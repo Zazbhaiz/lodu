@@ -7,7 +7,6 @@ START_TEXT = f"""
 ✨ **Hello {} !**
 ✪ I'm an music + management bot [✨](https://telegra.ph/file/7ed4a724821b3bd2cc320.jpg)
 ────────────────────────
-× *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
