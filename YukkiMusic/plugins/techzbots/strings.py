@@ -3,8 +3,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
-START_TEXT = """
-✨ **Hello {} !**
+START_TEXT = f"""
+✨ **Hello MENTION !**
 ✪ I'm an music + management bot [✨](https://telegra.ph/file/7ed4a724821b3bd2cc320.jpg)
 
 ✪ Hit /help to see my available commands.
