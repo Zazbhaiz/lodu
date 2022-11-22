@@ -145,7 +145,7 @@ SUDO_BACK_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text"↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
+                text="↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
                 text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
@@ -426,7 +426,7 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text"↪️ Bᴀᴄᴋ", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
