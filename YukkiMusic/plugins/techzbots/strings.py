@@ -317,25 +317,25 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 NEXT1 = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin", callback_data="admin"
+                text="Crypto", callback_data="crypto"
             ),
             InlineKeyboardButton(
-                text="Admin Miscs", callback_data="misc"
+                text="Dice", callback_data="dice"
             ),
 
             InlineKeyboardButton(
-                text="Animal", callback_data="animal"
+                text="Filters", callback_data="filter"
             ),
         ],
            [ InlineKeyboardButton(
-                text="Anime", callback_data="anime"
+                text="Flood", callback_data="flood"
             ),           
 
             InlineKeyboardButton(
-                text="Anime Pics", callback_data="picks"
+                text="Fun", callback_data="fun"
             ),   
              InlineKeyboardButton(
-                text="Anti-Service", callback_data="anti"
+                text="Grettings", callback_data="greet"
             ),           
 
 
@@ -344,28 +344,28 @@ NEXT1 = InlineKeyboardMarkup(
 
 
         [ InlineKeyboardButton(
-                text="Blacklist", callback_data="black"
+                text="Info", callback_data="info"
             ),           
 
             InlineKeyboardButton(
-                text="Blacklist Chat", callback_data="blackc"
+                text="Karma", callback_data="karma"
             ),   
              InlineKeyboardButton(
-                text="Cats", callback_data="cats"
+                text="Locks", callback_data="lock"
             ),           
 
 
                    
         ],   
         [ InlineKeyboardButton(
-                text="Chatbot", callback_data="chat"
+                text="Misc", callback_data="misc1"
             ),           
 
             InlineKeyboardButton(
-                text="Shippering", callback_data="couple"
+                text="Music", callback_data="music"
             ),   
              InlineKeyboardButton(
-                text="CrickInfo", callback_data="crick"
+                text="Notes", callback_data="notes"
             ),           
 
 
@@ -375,14 +375,12 @@ NEXT1 = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="⇜", callback_data="basic_cmd"
+                text="⇜", callback_data="next1"
             ),      
             InlineKeyboardButton(
                 text="◎Back", callback_data="command_menu"
             ),  
-            InlineKeyboardButton(
-                text="⇝", callback_data="next12"
-            ),                
+                          
         ],                          
     ]
 )
@@ -395,11 +393,22 @@ ZAZ = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="basic_cmd"
+                text="◎ Back", callback_data="basic_cmd"
             ),
+               
+        ],                          
+    ]
+)
+
+ZAZ1 = InlineKeyboardMarkup(
+    [   
+
+      
+        [
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
-            ),            
+                text="◎ Back", callback_data="next1"
+            ),
+               
         ],                          
     ]
 )
