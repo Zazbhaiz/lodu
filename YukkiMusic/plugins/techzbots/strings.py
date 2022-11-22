@@ -213,6 +213,9 @@ force stands for force play.
 /play  - Start playing Your Saved Playlist from Servers.
 """
 
+MISC = """set_chat_title - Change The Name Of A Group/Channel.
+/set_chat_photo - Change The PFP Of A Group/Channel.
+/set_user_title - Change The Administrator Title Of An Admin."""
 
 BASIC_TEXT = """
 ➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
