@@ -369,7 +369,7 @@ NEXT1 = InlineKeyboardMarkup(
                 text="🎙 Mᴜsɪᴄ", callback_data="music"
             ),   
              InlineKeyboardButton(
-                text=" Nᴏᴛᴇs", callback_data="notes"
+                text="📝 Nᴏᴛᴇs", callback_data="notes"
             ),           
 
 
@@ -421,7 +421,7 @@ ZAZ1 = InlineKeyboardMarkup(
 ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Auth Commands", callback_data="auth_cmds"
+                text="🪄 Aᴜᴛʜ Cᴏᴍᴍᴀɴᴅs", callback_data="auth_cmds"
             ),                        
         ],
         [
