@@ -120,10 +120,15 @@ async def next1(_, query):
     await query.answer()    
     await query.message.edit(text=BASIC_TEXT,reply_markup=NEXT1,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("crpto"))
+@app.on_callback_query(filters.regex("crypto"))
 async def crypto(_, query):
     await query.answer()    
     await query.message.edit(text=CRYPTO,reply_markup=ZAZ1,parse_mode="markdown")
+    
+@app.on_callback_query(filters.regex("misc1"))
+async def misc1(_, query):
+    await query.answer()    
+    await query.message.edit(text=MISC1,reply_markup=ZAZ1,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("dice"))
 async def dice(_, query):
