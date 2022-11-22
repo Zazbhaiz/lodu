@@ -120,6 +120,53 @@ async def next1(_, query):
     await query.answer()    
     await query.message.edit(text=BASIC_TEXT,reply_markup=NEXT1,parse_mode="markdown")
 
+@app.on_callback_query(filters.regex("crpto"))
+async def crypto(_, query):
+    await query.answer()    
+    await query.message.edit(text=CRYPTO,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("dice"))
+async def dice(_, query):
+    await query.answer()    
+    await query.message.edit(text=DICE,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("filter"))
+async def filter(_, query):
+    await query.answer()    
+    await query.message.edit(text=FILTER,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("flood"))
+async def flood(_, query):
+    await query.answer()    
+    await query.message.edit(text=FLOOD,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("greet"))
+async def greet(_, query):
+    await query.answer()    
+    await query.message.edit(text=GREET,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("info"))
+async def info(_, query):
+    await query.answer()    
+    await query.message.edit(text=INFO,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("karma"))
+async def karma(_, query):
+    await query.answer()    
+    await query.message.edit(text=KARMA,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("lock"))
+async def lock(_, query):
+    await query.answer()    
+    await query.message.edit(text=LOCK,reply_markup=ZAZ1,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("notes"))
+async def notes(_, query):
+    await query.answer()    
+    await query.message.edit(text=NOTES,reply_markup=ZAZ1,parse_mode="markdown")
+
+
+
 @app.on_callback_query(filters.regex("close_btn"))
 async def closer_menu(_, query):
     await query.answer()    
