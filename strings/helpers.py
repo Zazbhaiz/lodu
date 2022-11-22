@@ -216,37 +216,58 @@ ADMIN_MISC = """<u>/set_chat_title - Change The Name Of A Group/Channel.
 /set_user_title - Change The Administrator Title Of An Admin."""
 
 PICKS ="""Get SFW (Safe for work) Anime Pics. Try This Commands:
-    "/waifu",
-    "/neko",
-    "/shinobu",
-    "/megumin",
-    "/bully",
-    "/cuddle",
-    "/cry",
-    "/hug",
-    "/awoo",
-    "/kiss",
-    "/lick",
-    "/pat",
-    "/smug",
-    "/bonk",
-    "/yeet",
-    "/blush",
-    "/smile",
-    "/wave",
-    "/highfive",
-    "/handhold",
-    "/nom",
-    "/bite",
-    "/glomp",
-    "/slapgif",
-    "/kill",
-    "/kick",
-    "/happy",
-    "/wink",
-    "/poke",
-    "/dance",
-    "/cringe"
+    /waifu
+    /neko
+    /shinobu
+    /megumin
+    /bully
+    /cuddle
+    /cry
+    /hug
+    /awoo
+    /kiss
+    /lick
+    /pat
+    /smug
+    /bonk
+    /yeet
+    /blush
+    /smile
+    /wave
+    /highfive
+    /handhold
+    /nom
+    /bite
+    /glomp
+    /slapgif
+    /kill
+    /kick
+    /happy
+    /wink
+    /poke
+    /dance
+    /cringe
 
 
 """
+
+BLACK ="""/blacklisted - Get All The Blacklisted Words In The Chat.
+/blacklist [WORD|SENTENCE] - Blacklist A Word Or A Sentence.
+/whitelist [WORD|SENTENCE] - Whitelist A Word Or A Sentence."""
+
+BLACKC = """**THIS MODULE IS ONLY FOR DEVS**
+Use this module to make the bot leave some chats
+in which you don't want it to be in.
+/blacklist_chat [CHAT_ID] - Blacklist a chat.
+/whitelist_chat [CHAT_ID] - Whitelist a chat.
+/blacklisted - Show blacklisted chats."""
+
+CATS = """/randomcat - To Get Random Photo of Cat.
+/catfacts - To Get Facts About Cat."""
+
+CHAT = """/chatbot [ENABLE|DISABLE] To Enable Or Disable ChatBot In Your Chat."""
+
+COUPLE = """/detect_gay - To Choose Couple Of The Day"""
+
+CRICK = """/cricinfo - Get the latest score of the match."""
+
