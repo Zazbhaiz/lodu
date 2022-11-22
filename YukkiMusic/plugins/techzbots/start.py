@@ -85,6 +85,41 @@ async def anti(_, query):
     await query.answer()    
     await query.message.edit(text=ANTI,reply_markup=ZAZ,parse_mode="markdown")
 
+@app.on_callback_query(filters.regex("crick"))
+async def crick(_, query):
+    await query.answer()    
+    await query.message.edit(text=CRICK,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("couple"))
+async def couple(_, query):
+    await query.answer()    
+    await query.message.edit(text=COUPLE,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("chat"))
+async def chat(_, query):
+    await query.answer()    
+    await query.message.edit(text=CHAT,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("cats"))
+async def cats(_, query):
+    await query.answer()    
+    await query.message.edit(text=CATS,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("black"))
+async def black(_, query):
+    await query.answer()    
+    await query.message.edit(text=BLACK,reply_markup=ZAZ,parse_mode="markdown")\
+
+@app.on_callback_query(filters.regex("blackc"))
+async def blackc(_, query):
+    await query.answer()    
+    await query.message.edit(text=BLACKC,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("next1"))
+async def next1(_, query):
+    await query.answer()    
+    await query.message.edit(text=BASIC_TEXT,reply_markup=NEXT1,parse_mode="markdown")
+
 @app.on_callback_query(filters.regex("close_btn"))
 async def closer_menu(_, query):
     await query.answer()    
