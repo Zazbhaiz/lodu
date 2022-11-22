@@ -5,7 +5,7 @@ from config import MUSIC_BOT_NAME as BOT_NAME
 BOT_USERNAME = app.username
 START_TEXT = f"""
 ✨ *Hello {} !*
-✪ I'm an music + management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ I'm an music + management bot [✨](https://telegra.ph/file/7ed4a724821b3bd2cc320.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
