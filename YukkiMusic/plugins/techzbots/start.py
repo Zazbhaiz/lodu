@@ -36,7 +36,7 @@ async def commands_menu(_, query):
 @app.on_callback_query(filters.regex("admin_cmd"))
 async def admin_menu(_, query):
     await query.answer()    
-    await query.message.edit(text=ADMIN_TEXT,reply_markup=ZAZ,parse_mode="markdown")
+    await query.message.edit(text=ADMIN_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("auth_cmds"))
 async def auth_cmds(_, query):
@@ -58,7 +58,7 @@ async def bot_menu(_, query):
 @app.on_callback_query(filters.regex("admin"))
 async def admin(_, query):
     await query.answer()    
-    await query.message.edit(text=ADMIN_TEXT,reply_markup=BASIC_BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=ADMIN_TEXT,reply_markup=ZAZ,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("admin_misc"))
 async def admin_misc(_, query):
