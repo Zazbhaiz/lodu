@@ -68,21 +68,25 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="🧃 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
             ),
+             InlineKeyboardButton(
+                text="🍹 Bᴏᴛ Cᴏᴍᴍɴᴀᴅs", callback_data="bot_cmd"
+            ), 
+          
+         ],
+         [
             InlineKeyboardButton(
-                text="
-            InlineKeyboardButton(
-                text="Play Commands", callback_data="play_cmd"
+                text="🍷 Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
             ),            
             InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
+                text="🥂 Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -91,31 +95,31 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
 COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin Commands", callback_data="admin_cmd"
+                text="🧃 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="Bot Commands", callback_data="bot_cmd"
+                text="🍹 Bᴏᴛ Cᴏᴍᴍɴᴀᴅs", callback_data="bot_cmd"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="Play Commands", callback_data="play_cmd"
+                text="🍷 Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
             ),
             InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
+                text="🍻 Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
+                text="🥂 Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -124,10 +128,10 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
 BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
+                text="↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -136,15 +140,15 @@ BACK_BUTTON = InlineKeyboardMarkup(
 SUDO_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
+                text="🍻 Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
             ),                        
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
+                text"↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -179,10 +183,10 @@ Auth Users can use admin commands without admin rights in your chat.
 AUTH_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="admin_cmd"
+                text="↪️ Bᴀᴄᴋ", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -219,10 +223,9 @@ MISC = """/set_chat_title - Change The Name Of A Group/Channel.
 /set_user_title - Change The Administrator Title Of An Admin."""
 
 BASIC_TEXT = """
-➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
-➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.
+➲ /start : sᴛᴀʀᴛ ᴍᴇ ʙᴀʙʏ , ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ :-)​.
 ➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
-  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
   ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.
 """
 
@@ -247,25 +250,25 @@ ANTI = """"Plugin to delete service messages in a chat!
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin", callback_data="admin"
+                text=" Aᴅᴍɪɴ", callback_data="admin"
             ),
             InlineKeyboardButton(
-                text="Admin Miscs", callback_data="misc"
+                text=" Aᴅᴍɪɴ Mɪsᴄ", callback_data="misc"
             ),
 
             InlineKeyboardButton(
-                text="Animal", callback_data="animal"
+                text=" Aɴɪᴍᴀʟ", callback_data="animal"
             ),
         ],
            [ InlineKeyboardButton(
-                text="Anime", callback_data="anime"
+                text=" Aɴɪᴍᴇ", callback_data="anime"
             ),           
 
             InlineKeyboardButton(
-                text="Anime Pics", callback_data="picks"
+                text=" Aɴɪᴍᴇ Pɪᴄs", callback_data="picks"
             ),   
              InlineKeyboardButton(
-                text="Anti-Service", callback_data="anti"
+                text=" Aɴᴛɪ-Sᴇʀᴠɪᴄᴇ", callback_data="anti"
             ),           
 
 
@@ -274,28 +277,28 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 
 
         [ InlineKeyboardButton(
-                text="Blacklist", callback_data="black"
+                text=" Bʟᴀᴄᴋʟɪsᴛ", callback_data="black"
             ),           
 
             InlineKeyboardButton(
-                text="Blacklist Chat", callback_data="blackc"
+                text=" Bʟᴀᴄᴋʟɪsᴛ cʜᴀᴛs", callback_data="blackc"
             ),   
              InlineKeyboardButton(
-                text="Cats", callback_data="cats"
+                text=" Cᴀᴛs", callback_data="cats"
             ),           
 
 
                    
         ],   
         [ InlineKeyboardButton(
-                text="Chatbot", callback_data="chat"
+                text=" Cʜᴀᴛʙᴏᴛ", callback_data="chat"
             ),           
 
             InlineKeyboardButton(
-                text="Shippering", callback_data="couple"
+                text=" Sʜɪᴘᴘᴇʀɪɴɢ", callback_data="couple"
             ),   
              InlineKeyboardButton(
-                text="CrickInfo", callback_data="crick"
+                text=" Cʀɪᴄᴋɪɴғᴏ", callback_data="crick"
             ),           
 
 
@@ -306,10 +309,10 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
         [
            
             InlineKeyboardButton(
-                text="◎Back", callback_data="command_menu"
+                text="◎ Bᴀᴄᴋ", callback_data="command_menu"
             ),  
             InlineKeyboardButton(
-                text="⇝", callback_data="next1"
+                text="➡", callback_data="next1"
             ),                
         ],                          
     ]
@@ -318,25 +321,25 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 NEXT1 = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Crypto", callback_data="crypto"
+                text=" Cʀʏᴘᴛᴏ", callback_data="crypto"
             ),
             InlineKeyboardButton(
-                text="Dice", callback_data="dice"
+                text=" Dɪᴄᴇ", callback_data="dice"
             ),
 
             InlineKeyboardButton(
-                text="Filters", callback_data="filter"
+                text="Fɪʟᴛᴇʀs", callback_data="filter"
             ),
         ],
            [ InlineKeyboardButton(
-                text="Flood", callback_data="flood"
+                text=" Fʟᴏᴏᴅ", callback_data="flood"
             ),           
 
             InlineKeyboardButton(
-                text="Fun", callback_data="fun"
+                text=" Fᴜɴ", callback_data="fun"
             ),   
              InlineKeyboardButton(
-                text="Grettings", callback_data="greet"
+                text=" Gʀᴇᴇᴛɪɴɢs", callback_data="greet"
             ),           
 
 
@@ -345,28 +348,28 @@ NEXT1 = InlineKeyboardMarkup(
 
 
         [ InlineKeyboardButton(
-                text="Info", callback_data="info"
+                text="Iɴғᴏ", callback_data="info"
             ),           
 
             InlineKeyboardButton(
-                text="Karma", callback_data="karma"
+                text="Kᴀʀᴍᴀ", callback_data="karma"
             ),   
              InlineKeyboardButton(
-                text="Locks", callback_data="lock"
+                text="Lᴏᴄᴋs", callback_data="lock"
             ),           
 
 
                    
         ],   
         [ InlineKeyboardButton(
-                text="Misc", callback_data="misc1"
+                text="Mɪsᴄ", callback_data="misc1"
             ),           
 
             InlineKeyboardButton(
-                text="Music", callback_data="music"
+                text=" Mᴜsɪᴄ", callback_data="music"
             ),   
              InlineKeyboardButton(
-                text="Notes", callback_data="notes"
+                text=" Nᴏᴛᴇs", callback_data="notes"
             ),           
 
 
@@ -376,10 +379,10 @@ NEXT1 = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="⇜", callback_data="basic_cmd"
+                text="⬅", callback_data="basic_cmd"
             ),      
             InlineKeyboardButton(
-                text="◎Back", callback_data="command_menu"
+                text="◎ Bᴀᴄᴋ", callback_data="command_menu"
             ),  
                           
         ],                          
@@ -394,7 +397,7 @@ ZAZ = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="◎ Back", callback_data="basic_cmd"
+                text="◎ Bᴀᴄᴋ", callback_data="basic_cmd"
             ),
                
         ],                          
@@ -407,7 +410,7 @@ ZAZ1 = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="◎ Back", callback_data="next1"
+                text="◎ Bᴀᴄᴋ", callback_data="next1"
             ),
                
         ],                          
@@ -423,10 +426,10 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text"↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -435,20 +438,20 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Management", callback_data="basic_cmd"
+                text="✨ Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Music", callback_data="advanced_cmd"
+                text="🎧 Mᴜsɪᴄ", callback_data="advanced_cmd"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="open_start_menu"
+                text="↪️ Bᴀᴄᴋ", callback_data="open_start_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
         ],                        
     ]
