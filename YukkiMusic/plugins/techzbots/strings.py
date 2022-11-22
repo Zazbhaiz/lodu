@@ -271,14 +271,118 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
                    
         ],   
 
+
+        [ InlineKeyboardButton(
+                text="Blacklist", callback_data="black"
+            ),           
+
+            InlineKeyboardButton(
+                text="Blacklist Chat", callback_data="blackc"
+            ),   
+             InlineKeyboardButton(
+                text="Cats", callback_data="cats"
+            ),           
+
+
+                   
+        ],   
+        [ InlineKeyboardButton(
+                text="Chatbot", callback_data="chat"
+            ),           
+
+            InlineKeyboardButton(
+                text="Shippering", callback_data="couple"
+            ),   
+             InlineKeyboardButton(
+                text="CrickInfo", callback_data="crick"
+            ),           
+
+
+                   
+        ],   
+
+      
+        [
+           
+            InlineKeyboardButton(
+                text="◎Back", callback_data="command_menu"
+            ),  
+            InlineKeyboardButton(
+                text="⇝", callback_data="next1"
+            ),                
+        ],                          
+    ]
+)
+
+NEXT1 = InlineKeyboardMarkup(
+    [   [
+            InlineKeyboardButton(
+                text="Admin", callback_data="admin"
+            ),
+            InlineKeyboardButton(
+                text="Admin Miscs", callback_data="misc"
+            ),
+
+            InlineKeyboardButton(
+                text="Animal", callback_data="animal"
+            ),
+        ],
+           [ InlineKeyboardButton(
+                text="Anime", callback_data="anime"
+            ),           
+
+            InlineKeyboardButton(
+                text="Anime Pics", callback_data="picks"
+            ),   
+             InlineKeyboardButton(
+                text="Anti-Service", callback_data="anti"
+            ),           
+
+
+                   
+        ],   
+
+
+        [ InlineKeyboardButton(
+                text="Blacklist", callback_data="black"
+            ),           
+
+            InlineKeyboardButton(
+                text="Blacklist Chat", callback_data="blackc"
+            ),   
+             InlineKeyboardButton(
+                text="Cats", callback_data="cats"
+            ),           
+
+
+                   
+        ],   
+        [ InlineKeyboardButton(
+                text="Chatbot", callback_data="chat"
+            ),           
+
+            InlineKeyboardButton(
+                text="Shippering", callback_data="couple"
+            ),   
+             InlineKeyboardButton(
+                text="CrickInfo", callback_data="crick"
+            ),           
+
+
+                   
+        ],   
+
       
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
-            ),
+                text="⇜", callback_data="basic_cmd"
+            ),      
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
-            ),            
+                text="◎Back", callback_data="command_menu"
+            ),  
+            InlineKeyboardButton(
+                text="⇝", callback_data="next12"
+            ),                
         ],                          
     ]
 )
