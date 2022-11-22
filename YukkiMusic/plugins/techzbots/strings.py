@@ -4,9 +4,13 @@ from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
 START_TEXT = f"""
-✨ **Hello MENTION !**
-**You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ •ᴄᴏᴍᴍᴀɴᴅs• button**
+✨ *Hello {} !*
+✪ I'm an music + management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+────────────────────────
+× *Uptime:* `{}`
+× `{}` *users, across* `{}` *chats.*
+────────────────────────
+✪ Hit /help to see my available commands.
 """
 
 COMMANDS_TEXT = f"""
@@ -18,18 +22,18 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
+                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="•sᴇᴛᴛɪɴɢs•", callback_data="settings_helper"
+                text="⚒ Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="•ᴄʜᴀɴɴᴇʟ•", url="https://t.me/Zazbhai"
+                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/Luv_Holic"
             ),
             InlineKeyboardButton(
-                text="•ɢʀᴏᴜᴩ•", url="https://t.me/Zazbhai"
+                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/xSupport_ies"
             ),                       
         ],
         
@@ -39,21 +43,21 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="•Aᴅᴅ ᴍᴇ•", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                text="➕ Aᴅᴅ ᴍᴇ Bᴀʙʏ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),            
         ],
         [
             InlineKeyboardButton(
-                text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="command_menu"
+                text="📚 Cᴏᴍᴍᴀɴᴅs", callback_data="command_menu"
             ),
                                         
         ],
         [
             InlineKeyboardButton(
-                text="•ᴄʜᴀɴɴᴇʟ•", url="https://t.me/Zazbhai"
+                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/Zazbhai"
             ),
             InlineKeyboardButton(
-                text="•ɢʀᴏᴜᴩ•", url="https://t.me/Zazbhai"
+                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/Zazbhai"
             ),                       
         ],
     ]
@@ -62,13 +66,10 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Admin Commands", callback_data="admin_cmd"
+                text="🧃 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="Bot Commands", callback_data="bot_cmd"
-            ),            
-        ],
-        [
+                text="
             InlineKeyboardButton(
                 text="Play Commands", callback_data="play_cmd"
             ),            
