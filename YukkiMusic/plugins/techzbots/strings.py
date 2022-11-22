@@ -284,21 +284,21 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
                 text="💣 Bʟᴀᴄᴋʟɪsᴛ cʜᴀᴛs", callback_data="blackc"
             ),   
              InlineKeyboardButton(
-                text=" Cᴀᴛs", callback_data="cats"
+                text="🐾 Cᴀᴛs", callback_data="cats"
             ),           
 
 
                    
         ],   
         [ InlineKeyboardButton(
-                text=" Cʜᴀᴛʙᴏᴛ", callback_data="chat"
+                text="👩‍💻 Cʜᴀᴛʙᴏᴛ", callback_data="chat"
             ),           
 
             InlineKeyboardButton(
-                text=" Sʜɪᴘᴘᴇʀɪɴɢ", callback_data="couple"
+                text="🧸 Sʜɪᴘᴘᴇʀɪɴɢ", callback_data="couple"
             ),   
              InlineKeyboardButton(
-                text=" Cʀɪᴄᴋɪɴғᴏ", callback_data="crick"
+                text="🏏 Cʀɪᴄᴋɪɴғᴏ", callback_data="crick"
             ),           
 
 
@@ -321,25 +321,25 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 NEXT1 = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text=" Cʀʏᴘᴛᴏ", callback_data="crypto"
+                text="🥇 Cʀʏᴘᴛᴏ", callback_data="crypto"
             ),
             InlineKeyboardButton(
-                text=" Dɪᴄᴇ", callback_data="dice"
+                text="🎲 Dɪᴄᴇ", callback_data="dice"
             ),
 
             InlineKeyboardButton(
-                text="Fɪʟᴛᴇʀs", callback_data="filter"
+                text="🎭 Fɪʟᴛᴇʀs", callback_data="filter"
             ),
         ],
            [ InlineKeyboardButton(
-                text=" Fʟᴏᴏᴅ", callback_data="flood"
+                text="❄️ Fʟᴏᴏᴅ", callback_data="flood"
             ),           
 
             InlineKeyboardButton(
-                text=" Fᴜɴ", callback_data="fun"
+                text="🎉 Fᴜɴ", callback_data="fun"
             ),   
              InlineKeyboardButton(
-                text=" Gʀᴇᴇᴛɪɴɢs", callback_data="greet"
+                text="🎊 Gʀᴇᴇᴛɪɴɢs", callback_data="greet"
             ),           
 
 
@@ -348,25 +348,25 @@ NEXT1 = InlineKeyboardMarkup(
 
 
         [ InlineKeyboardButton(
-                text="Iɴғᴏ", callback_data="info"
+                text="🔍 Iɴғᴏ", callback_data="info"
             ),           
 
             InlineKeyboardButton(
-                text="Kᴀʀᴍᴀ", callback_data="karma"
+                text="✨ Kᴀʀᴍᴀ", callback_data="karma"
             ),   
              InlineKeyboardButton(
-                text="Lᴏᴄᴋs", callback_data="lock"
+                text="🔐 Lᴏᴄᴋs", callback_data="lock"
             ),           
 
 
                    
         ],   
         [ InlineKeyboardButton(
-                text="Mɪsᴄ", callback_data="misc1"
+                text="🎈 Mɪsᴄ", callback_data="misc1"
             ),           
 
             InlineKeyboardButton(
-                text=" Mᴜsɪᴄ", callback_data="music"
+                text="🎙 Mᴜsɪᴄ", callback_data="music"
             ),   
              InlineKeyboardButton(
                 text=" Nᴏᴛᴇs", callback_data="notes"
