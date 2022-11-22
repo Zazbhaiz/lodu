@@ -37,7 +37,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     x, y = str(round(played_sec/total_sec,1)).split(".")
     pos = int(y)
 
-    line = "▰"
+    line = "—"
     circle = "◉"
 
     bar = line*(pos-1)
@@ -54,7 +54,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="🏠 Support",
-                url="https://telegram.dog/AviaxSupport",
+                url="https://telegram.dog/xSupport_ies",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
