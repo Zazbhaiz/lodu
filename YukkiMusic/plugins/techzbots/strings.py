@@ -250,25 +250,25 @@ ANTI = """"Plugin to delete service messages in a chat!
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text=" Aᴅᴍɪɴ", callback_data="admin"
+                text="🌦 Aᴅᴍɪɴ", callback_data="admin"
             ),
             InlineKeyboardButton(
-                text=" Aᴅᴍɪɴ Mɪsᴄ", callback_data="misc"
+                text="🌸 Aᴅᴍɪɴ Mɪsᴄ", callback_data="misc"
             ),
 
             InlineKeyboardButton(
-                text=" Aɴɪᴍᴀʟ", callback_data="animal"
+                text="🦄 Aɴɪᴍᴀʟ", callback_data="animal"
             ),
         ],
            [ InlineKeyboardButton(
-                text=" Aɴɪᴍᴇ", callback_data="anime"
+                text="🦋 Aɴɪᴍᴇ", callback_data="anime"
             ),           
 
             InlineKeyboardButton(
-                text=" Aɴɪᴍᴇ Pɪᴄs", callback_data="picks"
+                text="🐬 Aɴɪᴍᴇ Pɪᴄs", callback_data="picks"
             ),   
              InlineKeyboardButton(
-                text=" Aɴᴛɪ-Sᴇʀᴠɪᴄᴇ", callback_data="anti"
+                text="🧃 Aɴᴛɪ-Sᴇʀᴠɪᴄᴇ", callback_data="anti"
             ),           
 
 
@@ -277,11 +277,11 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
 
 
         [ InlineKeyboardButton(
-                text=" Bʟᴀᴄᴋʟɪsᴛ", callback_data="black"
+                text="❗️Bʟᴀᴄᴋʟɪsᴛ", callback_data="black"
             ),           
 
             InlineKeyboardButton(
-                text=" Bʟᴀᴄᴋʟɪsᴛ cʜᴀᴛs", callback_data="blackc"
+                text="💣 Bʟᴀᴄᴋʟɪsᴛ cʜᴀᴛs", callback_data="blackc"
             ),   
              InlineKeyboardButton(
                 text=" Cᴀᴛs", callback_data="cats"
