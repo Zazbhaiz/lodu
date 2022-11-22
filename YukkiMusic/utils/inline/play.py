@@ -109,7 +109,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="🏠 Support",
-                url="https://telegram.dog/AviaxSupport",
+                url="https://telegram.dog/xSupport_ies",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
