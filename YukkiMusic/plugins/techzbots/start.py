@@ -60,8 +60,8 @@ async def admin(_, query):
     await query.answer()    
     await query.message.edit(text=ADMIN,reply_markup=ZAZ,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("admin_misc"))
-async def admin_misc(_, query):
+@app.on_callback_query(filters.regex("misc"))
+async def misc(_, query):
     await query.answer()    
     await query.message.edit(text=MISC,reply_markup=ZAZ,parse_mode="markdown")
 
