@@ -240,6 +240,8 @@ ANIME =  """
 /cquote character - Get Quote From A Character.
 
 """
+ANTI = """"Plugin to delete service messages in a chat!
+/antiservice [enable|disable]"""
 
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
@@ -249,13 +251,20 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="Admin Miscs", callback_data="misc"
             ),
+
+            InlineKeyboardButton(
+                text="Animal", callback_data="animal"
+            ),
         ],
            [ InlineKeyboardButton(
-                text="Animals", callback_data="animal"
+                text="Anime", callback_data="anime"
             ),           
 
             InlineKeyboardButton(
-                text="Anime", callback_data="anime"
+                text="Anime Pics", callback_data="picks"
+            ),   
+             InlineKeyboardButton(
+                text="Anti-Service", callback_data="anti"
             ),           
 
 
