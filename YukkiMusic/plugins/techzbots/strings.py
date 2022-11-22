@@ -375,7 +375,7 @@ NEXT1 = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="⇜", callback_data="next1"
+                text="⇜", callback_data="basic_cmd"
             ),      
             InlineKeyboardButton(
                 text="◎Back", callback_data="command_menu"
