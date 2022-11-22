@@ -271,3 +271,104 @@ COUPLE = """/detect_gay - To Choose Couple Of The Day"""
 
 CRICK = """/cricinfo - Get the latest score of the match."""
 
+CRYPTO = """/crypto [currency]
+        Get Real Time value from currency given."""
+
+DICE = """/dice
+    Roll a dice."""
+
+FILTER = """/filters To Get All The Filters In The Chat.
+/filter [FILTER_NAME] To Save A Filter (Can be a sticker or text).
+/stop [FILTER_NAME] To Stop A Filter.
+You can use markdown or html to save text too.
+Checkout /markdownhelp to know more about formattings and other syntax."""
+
+FLOOD = """Anti-Flood system, the one who sends more than 10 messages in a row, gets muted for an hour (Except for admins).
+/flood [ENABLE|DISABLE] - Turn flood detection on or off"""
+
+FUN = """/weebify - To weebify a message.
+/wish - To get succession rate! (Just for fun-.-)
+/slap - To slap someone."""
+
+GREET = """/captcha [ENABLE|DISABLE] - Enable/Disable captcha.
+/set_welcome - Reply this to a message containing correct
+format for a welcome message, check end of this message.
+/del_welcome - Delete the welcome message.
+/get_welcome - Get the welcome message.
+**SET_WELCOME ->**
+The format should be something like below.
+```
+**Hi** {name} Welcome to {chat}
+~ #This separater (~) should be there between text and buttons, remove this comment also
+button=[Duck, https://duckduckgo.com]
+button2=[Github, https://github.com]
+```
+**NOTES ->**
+for /rules, you can do /filter rules to a message
+containing rules of your groups whenever a user
+sends /rules, he'll get the message
+Checkout /markdownhelp to know more about formattings and other syntax."""
+
+INFO = """/info [USERNAME|ID] - Get info about a user.
+/chat_info [USERNAME|ID] - Get info about a chat."""
+
+KARMA = """[UPVOTE] - Use upvote keywords like "+", "+1", "thanks" etc to upvote a message.
+[DOWNVOTE] - Use downvote keywords like "-", "-1", etc to downvote a message.
+/karma_toggle [ENABLE|DISABLE] - Enable or Disable Karma System In Your Chat.
+Reply to a message with /karma to check a user's karma
+Send /karma without replying to any message to check karma list of top 10 users"""
+
+LOCK = """Commands: /lock | /unlock | /locks [No Parameters Required]
+Parameters:
+    messages | stickers | gifs | media | games | polls
+    inline  | url | group_info | user_add | pin
+You can only pass the "all" parameter with /lock, not with /unlock
+Example:
+    /lock all"""
+
+
+MISC1 = """/asq
+    Ask a question
+/commit
+    Generate Funny Commit Messages
+/runs
+    Idk Test Yourself
+/id
+    Get Chat_ID or User_ID
+/random [Length]
+    Generate Random Complex Passwords
+/cheat [Language] [Query]
+    Get Programming Related Help
+/tr [LANGUAGE_CODE]
+    Translate A Message
+    Ex: /tr en
+/json [URL]
+    Get parsed JSON response from a rest API.
+/webss [URL]
+    Take A Screenshot Of A Webpage
+/reverse
+    Reverse search an image.
+/carbon
+    Make Carbon from code.
+/tts
+    Convert Text To Speech.
+/autocorrect [Reply to a message]
+    Autocorrects the text in replied message.
+/pdf [Reply to an image (as document) or a group of images.]
+    Convert images to PDF, helpful for online classes.
+/markdownhelp
+    Sends mark down and formatting help.
+/backup
+    Backup database
+#RTFM - Tell noobs to read the manual"""
+
+MUSIC = """/ytmusic [link] To Download Music From Various Websites Including Youtube. [SUDOERS]
+/saavn [query] To Download Music From Saavn.
+/lyrics [query] To Get Lyrics Of A Song."""
+
+NOTES = """/notes To Get All The Notes In The Chat.
+/save [NOTE_NAME] To Save A Note (Can be a sticker or text).
+#NOTE_NAME To Get A Note.
+/delete [NOTE_NAME] To Delete A Note.
+Checkout /markdownhelp to know more about formattings and other syntax."""
+
