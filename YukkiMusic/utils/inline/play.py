@@ -38,7 +38,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     pos = int(y)
 
     line = "▰"
-    circle = "⦿"
+    circle = "◉"
 
     bar = line*(pos-1)
     bar += circle
@@ -47,23 +47,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
+                text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
         [
             InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
+                text="🏠 Support",
+                url="https://telegram.dog/AviaxSupport",
             ),
             InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
         [
@@ -73,6 +68,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
     ]
     return buttons
+
 
 def telegram_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_sec(played)
@@ -108,7 +104,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     return buttons
 
 
-
+def stream_markup(_, videoid, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="🏠 Support",
+                url="https://telegram.dog/AviaxSupport",
+            ),
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            )
+        ],
+    ]
+    return buttons
 
 
 def telegram_markup(_, chat_id):
@@ -122,22 +136,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
-        ],
-    ]
-    return buttons
-\def stream_markup(_, videoid, chat_id):
-    buttons = [
-        [
-            
-            InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
         ],
     ]
     return buttons
@@ -163,6 +161,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
     ]
     return buttons
+
+
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
@@ -288,7 +288,7 @@ def panel_markup_2(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
-),
+            ),
         ],
         [
             InlineKeyboardButton(
@@ -346,3 +346,17 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
