@@ -170,6 +170,10 @@ async def notes(_, query):
     await query.answer()    
     await query.message.edit(text=NOTES,reply_markup=ZAZ1,parse_mode="markdown")
 
+@app.on_callback_query(filters.regex("music"))
+async def music(_, query):
+    await query.answer()    
+    await query.message.edit(text=MUSIC,reply_markup=ZAZ1,parse_mode="markdown")
 
 
 @app.on_callback_query(filters.regex("close_btn"))
