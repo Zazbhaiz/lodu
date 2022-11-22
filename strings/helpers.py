@@ -189,7 +189,7 @@ Away from group
 When marked as AFK, any mentions will be replied to with a message to say you're not available!"""
 
 
-ADMIN = """/ban - Ban A User
+ADMIN = """<u>/ban - Ban A User
 /dban - Delete the replied message banning its sender
 /tban - Ban A User For Specific Time
 /unban - Unban A User
@@ -211,3 +211,42 @@ ADMIN = """/ban - Ban A User
 /ban_ghosts - Ban Deleted Accounts
 /report | @admins | @admin - Report A Message To Admins."""
 
+ADMIN_MISC = """<u>/set_chat_title - Change The Name Of A Group/Channel.
+/set_chat_photo - Change The PFP Of A Group/Channel.
+/set_user_title - Change The Administrator Title Of An Admin."""
+
+PICKS ="""Get SFW (Safe for work) Anime Pics. Try This Commands:
+    "/waifu",
+    "/neko",
+    "/shinobu",
+    "/megumin",
+    "/bully",
+    "/cuddle",
+    "/cry",
+    "/hug",
+    "/awoo",
+    "/kiss",
+    "/lick",
+    "/pat",
+    "/smug",
+    "/bonk",
+    "/yeet",
+    "/blush",
+    "/smile",
+    "/wave",
+    "/highfive",
+    "/handhold",
+    "/nom",
+    "/bite",
+    "/glomp",
+    "/slapgif",
+    "/kill",
+    "/kick",
+    "/happy",
+    "/wink",
+    "/poke",
+    "/dance",
+    "/cringe"
+
+
+"""
