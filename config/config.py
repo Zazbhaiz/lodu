@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = "https://github.com/Zazbhaiz/test"
+UPSTREAM_REPO = "https://github.com/Lakshyaxdz/testuy"
 UPSTREAM_BRANCH = "master"
 
 # GIT TOKEN ( if your edited repo is private)
