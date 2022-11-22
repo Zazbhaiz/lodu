@@ -246,8 +246,8 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="Admin Miscs", callback_data="admin_misc"
             ),
-
-            InlineKeyboardButton(
+        ],
+           [ InlineKeyboardButton(
                 text="Animals", callback_data="animal"
             ),           
 
