@@ -75,6 +75,15 @@ async def anime(_, query):
     await query.answer()    
     await query.message.edit(text=ANIME,reply_markup=ZAZ,parse_mode="markdown")
 
+@app.on_callback_query(filters.regex("picks"))
+async def picks(_, query):
+    await query.answer()    
+    await query.message.edit(text=PICKS,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("anti"))
+async def anti(_, query):
+    await query.answer()    
+    await query.message.edit(text=ANTI,reply_markup=ZAZ,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("close_btn"))
 async def closer_menu(_, query):
@@ -107,5 +116,4 @@ async def basic_cmd(_, query):
 async def command_menu(_, query):
     await query.answer()   
     await query.message.edit(text="**Choose One To Get Help For.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")  
-
 
