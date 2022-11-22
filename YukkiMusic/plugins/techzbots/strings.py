@@ -262,7 +262,7 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="↪️ Back", callback_data="basic_cmd"
             ),
             InlineKeyboardButton(
                 text="🔄 Close", callback_data="close_btn"
@@ -270,6 +270,24 @@ BASIC_BACK_BUTTON = InlineKeyboardMarkup(
         ],                          
     ]
 )
+
+
+
+ZAZ = InlineKeyboardMarkup(
+    [   
+
+      
+        [
+            InlineKeyboardButton(
+                text="↪️ Back", callback_data="basic_cmd"
+            ),
+            InlineKeyboardButton(
+                text="🔄 Close", callback_data="close_btn"
+            ),            
+        ],                          
+    ]
+)
+
 
 ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
@@ -291,12 +309,12 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="Music", callback_data="basic_cmd"
+                text="Management", callback_data="basic_cmd"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Management", callback_data="advanced_cmd"
+                text="Music", callback_data="advanced_cmd"
             ),
         ],
         [
