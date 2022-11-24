@@ -188,7 +188,7 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
         
         [
             InlineKeyboardButton(
-                text"↪️ Bᴀᴄᴋ"", callback_data="command_menu"
+                text="↪️ Bᴀᴄᴋ"", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
