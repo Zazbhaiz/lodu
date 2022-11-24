@@ -33,26 +33,12 @@ async def commands_menu(_, query):
         buttons = COMMANDS_BUTTON_USER
     await query.message.edit(text=text,reply_markup=buttons)
 
-@app.on_callback_query(filters.regex("admin_cmd"))
-async def admin_menu(_, query):
+@app.on_callback_query(filters.regex("gandu"))
+async def gandu(_, query):
     await query.answer()    
-    await query.message.edit(text=ADMIN_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=GANDU,reply_markup=ZAZ3,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("auth_cmds"))
-async def auth_cmds(_, query):
-    await query.answer()    
-    await query.message.edit(text=AUTH_TEXT,reply_markup=AUTH_BACK_BUTTON,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("play_cmd"))
-async def play_menu(_, query):
-    await query.answer()    
-    await query.message.edit(text=PLAY_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
-
-@app.on_callback_query(filters.regex("bot_cmd"))
-async def bot_menu(_, query):
-    await query.answer()    
-    await query.message.edit(text=BOT_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
-    
     
     
 @app.on_callback_query(filters.regex("admin"))
@@ -89,11 +75,67 @@ async def anti(_, query):
 async def crick(_, query):
     await query.answer()    
     await query.message.edit(text=CRICK,reply_markup=ZAZ,parse_mode="markdown")
+@app.on_callback_query(filters.regex("loda"))
+async def loda(_, query):
+    await query.answer()    
+    await query.message.edit(text=LODA,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("sudo"))
+async def sudo(_, query):
+    await query.answer()    
+    await query.message.edit(text=SUDO,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("boshra"))
+async def boshra(_, query):
+    await query.answer()    
+    await query.message.edit(text=BOSHRA,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("list"))
+async def list(_, query):
+    await query.answer()    
+    await query.message.edit(text=PLAYLIST,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("auth"))
+async def auth(_, query):
+    await query.answer()    
+    await query.message.edit(text=AUTH,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("video"))
+async def video(_, query):
+    await query.answer()    
+    await query.message.edit(text=VIDEOCHAT,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("play"))
+async def play(_, query):
+    await query.answer()    
+    await query.message.edit(text=PLAY,reply_markup=ZAZ3,parse_mode="markdown")
+
+
+
+@app.on_callback_query(filters.regex("lyrics"))
+async def lyrics(_, query):
+    await query.answer()    
+    await query.message.edit(text=LYRICS,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("broadcast"))
+async def broadcast(_, query):
+    await query.answer()    
+    await query.message.edit(text=LAHSAN,reply_markup=ZAZ3,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("ping"))
+async def ping(_, query):
+    await query.answer()    
+    await query.message.edit(text=PING,reply_markup=ZAZ3,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("couple"))
 async def couple(_, query):
     await query.answer()    
     await query.message.edit(text=COUPLE,reply_markup=ZAZ,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("fun"))
+async def fun(_, query):
+    await query.answer()    
+    await query.message.edit(text=FUN,reply_markup=ZAZ,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("chat"))
 async def chat(_, query):
@@ -115,20 +157,60 @@ async def blackc(_, query):
     await query.answer()    
     await query.message.edit(text=BLACKC,reply_markup=ZAZ,parse_mode="markdown")
 
+@app.on_callback_query(filters.regex("paste"))
+async def paste(_, query):
+    await query.answer()    
+    await query.message.edit(text=PASTE,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("pipe"))
+async def pipe(_, query):
+    await query.answer()    
+    await query.message.edit(text=PIPE,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("proxy"))
+async def proxy(_, query):
+    await query.answer()    
+    await query.message.edit(text=PROXY,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("reddit"))
+async def reddit(_, query):
+    await query.answer()    
+    await query.message.edit(text=REDDIT,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("sticker"))
+async def sticker(_, query):
+    await query.answer()    
+    await query.message.edit(text=STICKER,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("quotly"))
+async def quotly(_, query):
+    await query.answer()    
+    await query.message.edit(text=QUOTLY,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("tele"))
+async def tele(_, query):
+    await query.answer()    
+    await query.message.edit(text=TELE,reply_markup=ZAZ2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("url"))
+async def url(_, query):
+    await query.answer()    
+    await query.message.edit(text=URL,reply_markup=ZAZ2,parse_mode="markdown")
+
 @app.on_callback_query(filters.regex("next1"))
 async def next1(_, query):
     await query.answer()    
     await query.message.edit(text=BASIC_TEXT,reply_markup=NEXT1,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("crypto"))
+@app.on_callback_query(filters.regex("next2"))
+async def next2(_, query):
+    await query.answer()    
+    await query.message.edit(text=BASIC_TEXT,reply_markup=NEXT2,parse_mode="markdown")
+
+@app.on_callback_query(filters.regex("crpto"))
 async def crypto(_, query):
     await query.answer()    
     await query.message.edit(text=CRYPTO,reply_markup=ZAZ1,parse_mode="markdown")
-    
-@app.on_callback_query(filters.regex("misc1"))
-async def misc1(_, query):
-    await query.answer()    
-    await query.message.edit(text=MISC1,reply_markup=ZAZ1,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("dice"))
 async def dice(_, query):
@@ -170,10 +252,6 @@ async def notes(_, query):
     await query.answer()    
     await query.message.edit(text=NOTES,reply_markup=ZAZ1,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("music"))
-async def music(_, query):
-    await query.answer()    
-    await query.message.edit(text=MUSIC,reply_markup=ZAZ1,parse_mode="markdown")
 
 
 @app.on_callback_query(filters.regex("close_btn"))
