@@ -61,62 +61,137 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 )
 
 COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
-    [   [
+    [    [
             InlineKeyboardButton(
-                text="🧃 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
+                text="㊘ ᴀᴅᴍɪɴ", callback_data="gandu"
             ),
-             InlineKeyboardButton(
-                text="🍹 Bᴏᴛ Cᴏᴍᴍɴᴀᴅs", callback_data="bot_cmd"
-            ), 
-          
-         ],
-         [
             InlineKeyboardButton(
-                text="🍷 Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
+                text="㊔ ᴀᴜᴛʜ", callback_data="auth"
             ),            
+    ],
+        
+        [    InlineKeyboardButton(
+                text="㊙ ʙʟᴀᴄᴋʟɪsᴛ", callback_data="broadcast"
+            ),
+             
+        
+        
+
+         
             InlineKeyboardButton(
-                text="🥂 Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
-            ),                                   
+                text="㊮ ɢʙᴀɴ", callback_data="gban"
+            ),
+
+        ],
+        [    InlineKeyboardButton(
+                text="㊨ ʟʏʀɪᴄs", callback_data="lyrics"
+            ),            
+        
+        
+            InlineKeyboardButton(
+                text="㊙ ᴩɪɴɢ", callback_data="ping"
+            ),
         ],
         [
+            InlineKeyboardButton(
+                text="㊝  ᴩʟᴀʏ", callback_data="play"
+            ),            
+        
+
+        
+        
+            InlineKeyboardButton(
+                text="㊫ ᴩʟᴀʏʟɪsᴛ", callback_data="list"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="㊃ ᴠɪᴅᴇᴏᴄʜᴀᴛs", callback_data="videochat"
+            ),            
+        
+
+        
+        
+            InlineKeyboardButton(
+                text="㊞ sᴛᴀʀᴛ", callback_data="boshra"
+            ),
+           
+        ],
+
+         [
             InlineKeyboardButton(
                 text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
             ),            
-        ],                
+        ],             
+        
     ]
 )
 
 COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
-    [   [
+    [    [
             InlineKeyboardButton(
-                text="🧃 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs", callback_data="admin_cmd"
+                text="㊘ ᴀᴅᴍɪɴ", callback_data="gandu"
             ),
             InlineKeyboardButton(
-                text="🍹 Bᴏᴛ Cᴏᴍᴍɴᴀᴅs", callback_data="bot_cmd"
+                text="㊔ ᴀᴜᴛʜ", callback_data="auth"
             ),            
         ],
         [
+           
             InlineKeyboardButton(
-                text="🍷 Pʟᴀʏ Cᴏᴍᴍᴀɴᴅs", callback_data="play_cmd"
+                text="㊙ ʙʟᴀᴄᴋʟɪsᴛ", callback_data="broadcast"
+            ),            
+        
+        
+            InlineKeyboardButton(
+                text="㊮ ɢʙᴀɴ", callback_data="gban"
             ),
+        ],
+         [   InlineKeyboardButton(
+                text="㊨ ʟʏʀɪᴄs", callback_data="lyrics"
+            ),            
+        
+        
             InlineKeyboardButton(
-                text="🍻 Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
+                text="㊙ ᴩɪɴɢ", callback_data="ping"
+            ),
+         ],
+           [ InlineKeyboardButton(
+                text="㊝  ᴩʟᴀʏ", callback_data="play"
+            ),            
+        
+
+    
+            InlineKeyboardButton(
+                text="㊫ ᴩʟᴀʏʟɪsᴛ", callback_data="list"
+            ),
+
+           ],
+
+          [  InlineKeyboardButton(
+                text="㊃ ᴠɪᴅᴇᴏᴄʜᴀᴛs", callback_data="video"
+            ),            
+        
+
+        
+            InlineKeyboardButton(
+                text="㊞ sᴛᴀʀᴛ", callback_data="boshra"
+            ),
+          ],
+          [  InlineKeyboardButton(
+                text="㊅ sᴜᴅᴏ", callback_data="sudo"
             ),            
         ],
+        
         [
             InlineKeyboardButton(
-                text="🥂 Exᴛʀᴀ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Music-Help-Commands-05-16"
-            ),                                   
-        ],
-        [
-            InlineKeyboardButton(
-                text="↪️ Bᴀᴄᴋ", callback_data="command_menu"
+                text="↪️ Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
+                text="🔄 Close", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -137,15 +212,15 @@ BACK_BUTTON = InlineKeyboardMarkup(
 SUDO_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🍻 Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/Aviax-Sudo-cmds-05-16"
+                text="㊅ sᴜᴅᴏ", callback_data="sudo"
             ),                        
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Bᴀᴄᴋ", callback_data="advanced_cmd"
+                text="↪️ Back", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Cʟᴏsᴇ", callback_data="close_btn"
+                text="🔄 Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -376,16 +451,79 @@ NEXT1 = InlineKeyboardMarkup(
       
         [
             InlineKeyboardButton(
-                text="⬅", callback_data="basic_cmd"
+                text="⇜", callback_data="next1"
             ),      
             InlineKeyboardButton(
-                text="◎ Bᴀᴄᴋ", callback_data="command_menu"
+                text="◎Back", callback_data="command_menu"
+            ), 
+            InlineKeyboardButton(
+                text="⇝", callback_data="next2"
+            ),  
+                          
+        ],                          
+    ]          
+    ]
+)
+
+NEXT2 = InlineKeyboardMarkup(
+    [   [
+            InlineKeyboardButton(
+                text="Paste", callback_data="paste"
+            ),
+            InlineKeyboardButton(
+                text="Pipes", callback_data="pipe"
+            ),
+
+            InlineKeyboardButton(
+                text="Proxy", callback_data="proxy"
+            ),
+        ],
+           [ InlineKeyboardButton(
+                text="Quotly", callback_data="quotly"
+            ),           
+
+            InlineKeyboardButton(
+                text="Reddit", callback_data="reddit"
+            ),   
+             InlineKeyboardButton(
+                text="Stickers", callback_data="sticker"
+            ),           
+
+
+                   
+        ],   
+
+
+        [ InlineKeyboardButton(
+                text="Telegraph", callback_data="tele"
+            ),           
+
+            InlineKeyboardButton(
+                text="Url", callback_data="url"
+            ),   
+                  
+
+
+                   
+        ],   
+       
+   
+
+      
+        [
+            InlineKeyboardButton(
+                text="⇜", callback_data="next1"
+            ),      
+            InlineKeyboardButton(
+                text="◎Back", callback_data="command_menu"
+            ),
+            InlineKeyboardButton(
+                text="⇝", callback_data="basic_cmd"
             ),  
                           
         ],                          
     ]
 )
-
 
 
 ZAZ = InlineKeyboardMarkup(
@@ -408,6 +546,32 @@ ZAZ1 = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="◎ Bᴀᴄᴋ", callback_data="next1"
+            ),
+               
+        ],                          
+    ]
+)
+
+ZAZ2 = InlineKeyboardMarkup(
+    [   
+
+      
+        [
+            InlineKeyboardButton(
+                text="◎ Back", callback_data="next2"
+            ),
+               
+        ],                          
+    ]
+)
+
+ZAZ3 = InlineKeyboardMarkup(
+    [   
+
+      
+        [
+            InlineKeyboardButton(
+                text="◎ Back", callback_data="advanced_cmd"
             ),
                
         ],                          
