@@ -462,7 +462,7 @@ NEXT1 = InlineKeyboardMarkup(
                           
         ],                          
     ]          
-    ]
+    
 )
 
 NEXT2 = InlineKeyboardMarkup(
