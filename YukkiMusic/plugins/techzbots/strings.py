@@ -27,10 +27,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/Luv_Holic"
+                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/iro_bot_support"
             ),
             InlineKeyboardButton(
-                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/xSupport_ies"
+                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/iro_x_support"
             ),                       
         ],
         
