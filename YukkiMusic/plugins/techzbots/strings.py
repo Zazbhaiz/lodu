@@ -51,10 +51,10 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/Zazbhai"
+                text="💌 Cʜᴀɴɴᴇʟ", url="https://t.me/iro_bot_support"
             ),
             InlineKeyboardButton(
-                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/Zazbhai"
+                text="🔎 Gʀᴏᴜᴩ", url="https://t.me/iro_x_support"
             ),                       
         ],
     ]
